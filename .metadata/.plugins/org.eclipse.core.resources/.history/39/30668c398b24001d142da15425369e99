@@ -1,0 +1,8 @@
+package KhaiBaoLopPoint;
+
+public class Main {
+	static private double x;
+	static private double y;
+	public static void Point() {}
+	
+}

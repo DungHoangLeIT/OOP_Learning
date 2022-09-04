@@ -1,0 +1,18 @@
+package KhaiBaoLopHCN;
+
+class Rectange{
+	private double width;
+	private double height;
+	private String color;
+	
+	public Rectange() {}
+	public Rectange(double width, double height, String color) {
+		this.color = color;
+		this.height = height;
+		this.width = width;
+	}
+}
+
+public class main {
+	
+}

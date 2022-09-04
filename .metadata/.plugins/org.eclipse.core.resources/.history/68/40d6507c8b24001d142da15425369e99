@@ -1,0 +1,16 @@
+package KhaiBaoLopPoint;
+
+class Point{
+	private double x;
+	private double y;
+	public Point() {}
+	public Point() {
+		
+	}
+	
+}
+
+
+public class Main {
+	
+}

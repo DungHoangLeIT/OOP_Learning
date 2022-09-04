@@ -1,0 +1,30 @@
+package SoXaCach;
+
+import java.util.Scanner;
+
+public class Main {
+	static int[] used = {0};
+	static int n;
+	static int[] a;
+	public static void Try(int i) {
+		for(int j = 1; j <= n; j++) {
+			if(used[j] == 0) {
+				a[i] = j;
+				used[j] = 1;
+				if(i == n) {
+					for(int i1 = 1; i1 <= n; i1++) {
+						System.out.print(a[i1]);
+					}
+					System.out.println();
+				}
+				Try(i + 1);
+				used[j] = 0;
+			}
+		}
+	}
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		Try(1);
+	}
+}
