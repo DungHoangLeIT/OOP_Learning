@@ -1,7 +1,0 @@
-package SoXaCach;
-
-import java.util.Scanner;
-
-public class Main {
-	static int x[] = new int[30];
-}
